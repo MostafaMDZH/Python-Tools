@@ -46,7 +46,7 @@ Correct a list of file names based on a JSON file.</br>
 
 </br>
 
-# • Pixabay.com Images Name Corrector:
+# • Rename Pixabay.com Images:
 Grab the actual image names and remove numbers and underlines from all the images in the directory downloaded from pixabay.com.</br>
 <b>Usage</b>: just run the main file like:</br>
 > python3 PixabayRename.py
