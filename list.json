@@ -1,0 +1,6 @@
+{
+    "list": [
+        {"oldName":"hello world", "path":"/peron",       "newName":"hello mostafa"},
+        {"oldName":"red flag",    "Path":"/signs/flags", "newName":"green flag"   }
+    ]
+}
