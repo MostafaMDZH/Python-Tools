@@ -2,7 +2,7 @@
 Collection of tools for manipulating a directory of images and files.<br>
 @MostafaMDZH | mostafa.mDZH@gmail.com</br>
 
-Put all your images(including subdirectories) into the "Gallery" directory and use the tools below:</br></br>
+Put all your images(including subdirectories) into the "gallery" directory and use the tools below:</br></br>
 
 # • Image Resizer
 Resize all the images in a directory to a specific resolution based on the small side(depending on the image orientation), and resize the big side based on the original ratio.</br>

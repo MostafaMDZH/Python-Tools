@@ -17,8 +17,8 @@ for i in list['list']:
     newName = i["newName"]
     
     # path
-    oldPath = Path("Gallery" + dir + "/" + oldName)
-    newPath = Path("Gallery" + dir + "/" + newName)
+    oldPath = Path("gallery" + dir + "/" + oldName)
+    newPath = Path("gallery" + dir + "/" + newName)
     
     # loop to files:
     for j in range(1, 100):

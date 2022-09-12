@@ -58,7 +58,7 @@ def lastReplace(text, old, new, occurrence):
     return new.join(list)
 
 # loop through files and folders:
-rootDir = os.path.dirname(os.path.realpath(__file__)) + '/Gallery'
+rootDir = os.path.dirname(os.path.realpath(__file__)) + '/gallery'
 totalFiles = sum([len(files) for r, d, files in os.walk(rootDir)])
 progressIndex = 0
 for subdir, dirs, files in os.walk(rootDir):
