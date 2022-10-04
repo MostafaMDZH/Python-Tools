@@ -11,14 +11,14 @@ Resize all the images in a directory to a specific resolution based on the small
 
 </br>
 
-# • Thumbnail Maker:
+# • Thumbnail Maker
 Create a thumbnail for all the images in a directory.</br>
 <b>Usage</b>: run the main file while passing the resolution size(default is 300 pixels)</br>
 > python3 MakeThumbnail.py 480
 
 </br>
 
-# • Watermark Adder:
+# • Watermark Adder
 Add a watermark to all the images in a directory.</br>
 <b>Usage</b>: run the main file with python 3 while passing the text you want to watermark(it ignores thumbnails with .min in their names)</br>
 > python3 AddWatermark.py "Watermark Text"
@@ -32,21 +32,21 @@ Convert all the .png images in a directory into the .jpg format.</br>
 
 </br>
 
-# • Naming Statistics:
+# • Naming Statistics
 Count the first letter of all the files in a directory.</br>
 <b>Usage</b>: just run the main file like:</br>
 > python3 Statistics.py
 
 </br>
 
-# • Name Corrector:
+# • Name Corrector
 Correct a list of file names based on a JSON file.</br>
 <b>Usage</b>: fill the list.json file(like the sample) and run:</br>
 > python3 CorrectNames.py
 
 </br>
 
-# • Rename Pixabay.com Images:
+# • Rename Pixabay.com Images
 Grab the actual image names and remove numbers and underlines from all the images in the directory downloaded from pixabay.com.</br>
 <b>Usage</b>: just run the main file like:</br>
 > python3 PixabayRename.py
