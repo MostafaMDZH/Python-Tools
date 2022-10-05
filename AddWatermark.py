@@ -7,11 +7,15 @@ from PIL import Image, ImageDraw, ImageFont
 
 def watermark(sourcePath, text):
 
+    # if it is a thumbnail, skip
+    if '.min.' in sourcePath:
+        return
+
     # open the source image:
     sourceImage = Image.open(sourcePath)
     width, height = sourceImage.size
 
-    # creat a canvas:
+    # create a canvas:
     canvas = Image.new("RGBA", sourceImage.size)
     canvasObj = ImageDraw.ImageDraw(canvas, "RGBA")
 
